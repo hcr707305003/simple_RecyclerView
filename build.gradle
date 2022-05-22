@@ -1,0 +1,30 @@
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:7.1.2'
+        classpath 'com.github.dcendents:android-maven-gradle-plugin:2.1'
+    }
+}
+
+ext {
+    compileSdkVersion = 31
+    buildToolsVersion = "31.0.0"
+    minSdkVersion = 21
+    targetSdkVersion = 31
+    versionCode = 2204121
+    versionName = "2.0.2"
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

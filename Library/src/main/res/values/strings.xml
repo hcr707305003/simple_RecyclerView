@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="pl_rv_empty">no data</string>
+    <string name="pl_rv_error">error</string>
+    <string name="pl_rv_no_more">no more</string>
+    <string name="pl_rv_load_more_failed">load more failed</string>
+    <string name="pl_rv_loading">loading…</string>
+
+</resources>

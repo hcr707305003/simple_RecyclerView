@@ -1,0 +1,51 @@
+<resources>
+
+    <string name="app_name" translatable="false">PLRecyclerViewDemo</string>
+    <string name="version">v%1$s\nBuild:%2$d</string>
+    <string name="github_url">https://github.com/xm3366336/PLRecyclerView</string>
+
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_empty">EmptyActivity</string>
+    <string name="title_activity_error">ErrorActivity</string>
+    <string name="title_activity_single_item">SingleItemActivity</string>
+    <string name="title_activity_multi_item">MultiItemActivity</string>
+    <string name="title_activity_grid">GridActivity</string>
+    <string name="title_activity_staggered">StaggeredActivity</string>
+    <string name="title_activity_manual_load_more">ManualLoadMoreActivity</string>
+    <string name="title_activity_expand">ExpandActivity</string>
+    <string name="title_activity_item_drag">ItemDragActivity</string>
+
+    <string-array name="main_fun_name">
+        <item>EmptyActivity</item>
+        <item>ErrorActivity</item>
+        <item>SingleItemActivity</item>
+        <item>MultiItemActivity</item>
+        <item>GridActivity</item>
+        <item>StaggeredActivity</item>
+        <item>ManualLoadMoreActivity</item>
+        <item>DragActivity</item>
+        <item>ExpandActivity</item>
+    </string-array>
+
+    <string name="click_to_load">Click to load the next page</string>
+    <string name="tips_1">Do whatever you want</string>
+    <string name="tips_2">something went wrong</string>
+
+    <string name="action_edit">Edit</string>
+    <string name="action_grid">Grid</string>
+    <string name="action_save">Save</string>
+
+    <string name="action_opt_insert">Insert 1 before item 5</string>
+    <string name="action_opt_insert_back">Insert 1 after item 5</string>
+    <string name="action_opt_remove">Delete item 5</string>
+    <string name="action_opt_remove_multi">From item 5, delete 2</string>
+    <string name="action_opt_empty">Clear All</string>
+
+    <string name="seq_data_1">%1$dth</string>
+    <string name="seq_data_2">This is the %1$dth data</string>
+    <string name="seq_data_3">I am father %1$d</string>
+    <string name="seq_data_4">My father is %1$d, and me is %2$d</string>
+    <string name="seq_data_5">This is the newly inserted data</string>
+    <string name="seq_data_6">This is a random number: %1$s</string>
+
+</resources>
